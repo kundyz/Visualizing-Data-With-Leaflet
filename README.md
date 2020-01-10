@@ -10,4 +10,5 @@ Task
 * Make sure that the HTML on the page has your name somewhere.
 
 Output
+
 ![logo](/images/BasicMap.png)
