@@ -1,1 +1,2 @@
-# Visualizing-Data-With-Leaflet
+# Visualizing Data with Leaflet
+![logo](/images/logo.png)
