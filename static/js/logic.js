@@ -14,7 +14,8 @@ function createFeatures(earthquakeData) {
     },
     pointToLayer: function(feature, latlng) {
       return new L.circle(latlng,
-        {radius: getRadius(feature.properties.mag),
+        {
+          radius: getRadius(feature.properties.mag),
           fillColor: getColor(feature.properties.mag),
           fillOpacity: 0.5,
           stroke: true,
@@ -51,9 +52,9 @@ function createMap(earthquake) {
   });
 
   var baseMaps = {
-    "Gray Map": grayMap,
-    "Satellite Map": satelliteMap,
-    "Outdoors Map": outdoorsMap
+    "Grayscale": grayMap,
+    "Satellite": satelliteMap,
+    "Outdoors": outdoorsMap
   };
 
   var tectonic = new L.LayerGroup();
