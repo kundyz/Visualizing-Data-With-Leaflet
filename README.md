@@ -8,7 +8,12 @@ Task
 * Create a legend that will provide context for your map data.
 * Your visualization should look something like the map above.
 * Make sure that the HTML on the page has your name somewhere.
+* Plot a second data set on our map.
+* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
+* Add layer controls to our map.
 
 Output
 
-![logo](/images/BasicMap.png)
+![logo](/images/Grayscale.PNG)
+![logo](/images/Outdoors.PNG)
+![logo](/images/Satellite.PNG)
